@@ -1,9 +1,9 @@
-# Address Book Application using C
+# Address Book Application (C)
+
+---
 
 ## Overview
-Address Book is a console-based application developed in C that allows users to store, manage, and maintain contact information efficiently. The application supports adding, searching, editing, deleting, and listing contacts with persistent storage using a CSV file.
-
-This project demonstrates strong fundamentals of C programming, including file handling, structures, pointers, and menu-driven program design.
+A console-based Address Book application written in C that allows users to store and manage contact information with persistent storage using a CSV file.
 
 ---
 
@@ -13,16 +13,7 @@ This project demonstrates strong fundamentals of C programming, including file h
 - Edit existing contact details
 - Delete contacts
 - View all saved contacts
-- Persistent storage using a CSV file (`database.csv`)
-
----
-
-## Technologies Used
-- C Programming
-- File Handling
-- Structures and Pointers
-- CSV File Processing
-- GCC Compiler
+- Uses a CSV file (`database.csv`) for permanent storage
 
 ---
 
@@ -30,7 +21,8 @@ This project demonstrates strong fundamentals of C programming, including file h
 
 ### Clone the repository
 ```bash
-Compile the program
+git clone https://github.com/gayathrikarasi-dev/address-book-c.git
+cd addCompile the program
 gcc src/*.c -I include -o addressbook
 
 Run the program
@@ -41,65 +33,43 @@ Run the program
 addressbook.exe
 
 
-After running, follow the on-screen menu to add, edit, search, delete, or list contacts.
+After running, follow the on-screen menu to manage contacts.ress-book-c
+## Dependencies
 
-Usage
+- GCC or any standard C compiler
 
-Choose options from the menu to perform operations
+## Notes
 
-Enter contact details as prompted
+- The program reads and writes data to `database.csv`
+- Ensure `database.csv` is in the same directory as the executable
+- You can manually edit the CSV file to add more contacts
 
-Data is automatically saved to the CSV file
+## Screenshots
 
-Notes
+### Help
+<img width="838" height="253" alt="Help Menu" src="https://github.com/user-attachments/assets/35a67792-0eaa-4a46-9234-06c5e5808439" />
 
-The program reads and writes data to database.csv.
+### View
+<img width="899" height="251" alt="View Contact" src="https://github.com/user-attachments/assets/a2bbeab4-6a39-4d63-927a-d538ca07966c" />
 
-Ensure database.csv is present in the same directory as the executable.
+### Editing
+<img width="968" height="131" alt="Edit Contact" src="https://github.com/user-attachments/assets/9c1a805a-4711-41d4-b881-f11cf9d7b9d2" />
 
-You can manually edit the CSV file to add or modify sample contacts.
+### View After Edit
+<img width="911" height="258" alt="View After Edit" src="https://github.com/user-attachments/assets/f17c6f4d-0817-4aef-810a-7ff93e852a22" />
 
-Changes made through the application are saved permanently.
+### Add Contact
+<img width="900" height="250" alt="Add Contact" src="PASTE_ADD_CONTACT_IMAGE_LINK_HERE" />
 
-Skills Learned
+### Search Contact
+<img width="900" height="250" alt="Search Contact" src="PASTE_SEARCH_CONTACT_IMAGE_LINK_HERE" />
 
-C programming with real-world file handling
+### List Contacts
+<img width="900" height="250" alt="List Contacts" src="PASTE_LIST_CONTACTS_IMAGE_LINK_HERE" />
 
-Working with structures and pointers
+### Delete Contact
+<img width="900" height="250" alt="Delete Contact" src="PASTE_DELETE_CONTACT_IMAGE_LINK_HERE" />
 
-Menu-driven application design
+### Exit
+- Select the **Exit** option from the menu to close the application.
 
-CSV-based persistent data storage
-
-Debugging and input validation
-
-Dependencies
-
-GCC or any standard C compiler
-
-Screenshots
-Add Contact
-
-Add Contact
-
-Edit Contact
-
-Edit Contact
-
-Search Contact
-
-Search Contact
-
-List Contacts
-
-List Contacts
-
-Delete Contact
-
-Delete Contact
-
-Exit
-
-Select the Exit option from the menu to safely close the application.
-git clone https://github.com/gayathrikarasi-dev/address-book-c.git
-cd address-book-c
