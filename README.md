@@ -1,7 +1,11 @@
-# Address Book Application (C)
+# Address Book Application using C
 
 ## Overview
-A console-based Address Book application written in C that allows users to store and manage contact information with persistent storage using a CSV file.
+Address Book is a console-based application developed in C that allows users to store, manage, and maintain contact information efficiently. The application supports adding, searching, editing, deleting, and listing contacts with persistent storage using a CSV file.
+
+This project demonstrates strong fundamentals of C programming, including file handling, structures, pointers, and menu-driven program design.
+
+---
 
 ## Features
 - Add new contacts
@@ -9,14 +13,23 @@ A console-based Address Book application written in C that allows users to store
 - Edit existing contact details
 - Delete contacts
 - View all saved contacts
-- Uses a CSV file (`database.csv`) for permanent storage
+- Persistent storage using a CSV file (`database.csv`)
+
+---
+
+## Technologies Used
+- C Programming
+- File Handling
+- Structures and Pointers
+- CSV File Processing
+- GCC Compiler
+
+---
 
 ## How to Run
 
 ### Clone the repository
 ```bash
-git clone https://github.com/gayathrikarasi-dev/address-book-c.git
-cd address-book-c
 Compile the program
 gcc src/*.c -I include -o addressbook
 
@@ -26,30 +39,67 @@ Run the program
 
 # Windows
 addressbook.exe
-## Dependencies
-- GCC or any standard C compiler
 
-## Notes
-- The program reads and writes data to `database.csv`.
-- Ensure `database.csv` is in the same directory as the executable.
-- You can manually edit the CSV file to add more contacts.
 
-## Screenshots
+After running, follow the on-screen menu to add, edit, search, delete, or list contacts.
 
-### Add Contact
+Usage
+
+Choose options from the menu to perform operations
+
+Enter contact details as prompted
+
+Data is automatically saved to the CSV file
+
+Notes
+
+The program reads and writes data to database.csv.
+
+Ensure database.csv is present in the same directory as the executable.
+
+You can manually edit the CSV file to add or modify sample contacts.
+
+Changes made through the application are saved permanently.
+
+Skills Learned
+
+C programming with real-world file handling
+
+Working with structures and pointers
+
+Menu-driven application design
+
+CSV-based persistent data storage
+
+Debugging and input validation
+
+Dependencies
+
+GCC or any standard C compiler
+
+Screenshots
 Add Contact
 
-### Edit Contact
+Add Contact
+
 Edit Contact
 
-### Search Contact
+Edit Contact
+
 Search Contact
 
-### List Contacts
+Search Contact
+
 List Contacts
 
-### Delete Contact
+List Contacts
+
 Delete Contact
 
-## Exit
-Select the **Exit** option from the menu to close the application.
+Delete Contact
+
+Exit
+
+Select the Exit option from the menu to safely close the application.
+git clone https://github.com/gayathrikarasi-dev/address-book-c.git
+cd address-book-c
