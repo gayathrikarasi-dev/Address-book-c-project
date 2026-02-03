@@ -17,12 +17,12 @@ This is a simple Address Book program written in C. It is used to store contact 
    
 git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
 ## Dependencies
-2. Compile the Program:
-   
+- GCC or any standard C compiler
+## Compile the Program:
 gcc src/*.c -I include -o addressbook
 ./addressbook
 
-3. Run the Program:
+##Run the Program:
 ### On Linux/Mac
 ./addressbook
 
@@ -34,7 +34,7 @@ addressbook.exe
 - You may manually edit database.csv to add sample contacts
 - Ensure database.csv is present in the same directory as the executable
   
- ## Screenshots
+## Screenshots
 ### Add Contact
 
 ### Edit Contact
