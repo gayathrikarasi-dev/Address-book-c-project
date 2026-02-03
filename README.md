@@ -14,7 +14,7 @@ This is a simple Address Book program written in C. It is used to store contact 
 
 ## How to Run
 
-### Clone the Repository
+1.Clone the Repository:
 hwshwj
 ### Compile the Program
 gcc src/*.c -I include -o addressbook
