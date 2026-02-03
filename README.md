@@ -50,22 +50,21 @@ addressbook.exe
 ### Add Contact
 <img width="1322" height="324" alt="image" src="https://github.com/user-attachments/assets/5edbfe7d-2e0b-4dc1-af96-f4969f7b46e7" />
 
-
 ### Edit Contact
-<img width="970" height="759" alt="image" src="https://github.com/user-attachments/assets/bc025110-6722-4364-877b-1a5e772c8ab2" />
-
+<img width="1321" height="706" alt="image" src="https://github.com/user-attachments/assets/f253855b-2979-4a60-9904-269fe4e5a5bc" />
 
 ### Search Contact
-<img width="501" height="396" alt="image" src="https://github.com/user-attachments/assets/100f0634-3b4f-4dda-a8da-5c580b5e3c84" />
+<img width="1280" height="347" alt="image" src="https://github.com/user-attachments/assets/0532eeb0-0cbb-4502-8d62-949d107a3466" />
 
 ### List Contacts
-<img width="1023" height="299" alt="image" src="https://github.com/user-attachments/assets/0df59978-45f7-40cc-a53b-4c9690855e5b" />
+<img width="1359" height="282" alt="image" src="https://github.com/user-attachments/assets/518b7838-38d5-4264-917d-0cdc4cbda704" />
 
 ### Delete Contact
-<img width="1029" height="456" alt="image" src="https://github.com/user-attachments/assets/2125029a-5e70-43cd-b93f-2ce075083fce" />
+<img width="1332" height="451" alt="image" src="https://github.com/user-attachments/assets/c7905826-7e90-4628-a40d-fd1a247c5c8d" />
 
 ### To Exit
-<img width="996" height="250" alt="image" src="https://github.com/user-attachments/assets/3a45248c-2a4c-4680-a930-f0d55db7f2be" />
+<img width="1336" height="239" alt="image" src="https://github.com/user-attachments/assets/85d42fd2-0591-4c0c-a359-5d162b20530d" />
+
 
 
 
