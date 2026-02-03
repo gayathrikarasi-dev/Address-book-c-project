@@ -1,5 +1,5 @@
 # Address Book Application (C)
-
+---
 ## Overview
 This is a simple Address Book program written in C. It is used to store contact details such as name, phone number, and email. The user can add, search, edit, delete, and view contacts using a menu. All contact information is saved in a CSV file so the data remains available even after the program is closed.
 
