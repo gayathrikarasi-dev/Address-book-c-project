@@ -14,9 +14,10 @@ This is a simple Address Book program written in C. It is used to store contact 
 - Sample database (`database.csv`) with 7 sample contacts provided
 
   
-## How to Run9
+## How to Run
 ### 1. Clone the Repository:
 git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
+
 
 ## Dependencies
 - GCC or any C compiler
