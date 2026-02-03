@@ -23,9 +23,11 @@ This is a simple Address Book program written in C. It is used to store contact 
 
 ### 3. Run the Program:
 ` # on Linux/Mac`
+
 ./addressbook
 
 ` # On Windows (Command Prompt or PowerShell)`
+
 addressbook.exe
 ## Notes
 - Contact data is stored in database.csv
