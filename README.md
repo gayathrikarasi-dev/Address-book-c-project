@@ -25,10 +25,13 @@ git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
 - GCC or any C compiler
   
 ### 2. Compile the Program:
+
 `gcc src/*.c -I include -o addressbook `
 ### 3. Run the Program:
+
 ` # on Linux/Mac`
 ./addressbook
+
 ` # On Windows (Command Prompt or PowerShell)`
 addressbook.exe
 
