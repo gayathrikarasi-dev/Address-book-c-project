@@ -48,18 +48,9 @@ addressbook.exe
 
 ### Add Contact
 
-
-
-
 ### Edit Contact
 
-
-
-
 ### Search Contact
-
-
-
 
 ### List Contacts
 
