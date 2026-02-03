@@ -22,11 +22,11 @@ git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
 gcc src/*.c -I include -o addressbook
 ./addressbook
 
-4. Run the Program:
-# On Linux/Mac
+3. Run the Program:
+### On Linux/Mac
 ./addressbook
 
-# On Windows (Command Prompt or PowerShell)
+###On Windows (Command Prompt or PowerShell)
 addressbook.exe
 ## Notes
 - Contact data is stored in database.csv
