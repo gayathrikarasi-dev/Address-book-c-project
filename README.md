@@ -46,10 +46,13 @@ addressbook.exe
   
 ## Screenshots
 
+
 ### Add Contact
-<img width="1004" height="247" alt="image" src="https://github.com/user-attachments/assets/640b98b4-35d0-4a76-9308-c89e72d7e381" />
+<img width="1322" height="324" alt="image" src="https://github.com/user-attachments/assets/5edbfe7d-2e0b-4dc1-af96-f4969f7b46e7" />
+
 
 ### Edit Contact
+<img width="970" height="759" alt="image" src="https://github.com/user-attachments/assets/bc025110-6722-4364-877b-1a5e772c8ab2" />
 
 
 ### Search Contact
