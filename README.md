@@ -18,11 +18,10 @@ This is a simple Address Book program written in C. It is used to store contact 
 git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
 ## Dependencies
 - GCC or any standard C compiler
-## Compile the Program:
+2. Compile the Program:
 gcc src/*.c -I include -o addressbook
 ./addressbook
-
-## Run the Program:
+3. Run the Program:
 ### On Linux/Mac
 ./addressbook
 
