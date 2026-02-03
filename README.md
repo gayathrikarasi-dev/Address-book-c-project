@@ -13,33 +13,19 @@ This is a simple Address Book program written in C. It is used to store contact 
 - Sample database (`database.csv`) with 7 sample contacts provided
 
 ## How to Run
-1. Clone the Repository:
-   
-git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
+### 1. Clone the Repository:
+`git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git`
 ## Dependencies
 - GCC or any C compiler
+  
+### 2. Compile the Program:
+`gcc src/*.c -I include -o addressbook `
 
-## Steps to Run the Program
-
-### 1. Compile the Program
-```bash
-gcc src/*.c -I include -o addressbook 
-
-
-
-
-
-
-## Dependencies
-- GCC or any standard C compiler
-2. Compile the Program:
-gcc src/*.c -I include -o addressbook
-./addressbook
-3. Run the Program:
-### On Linux/Mac
+### 3. Run the Program:
+` # on Linux/Mac`
 ./addressbook
 
-### On Windows (Command Prompt or PowerShell)
+` # On Windows (Command Prompt or PowerShell)`
 addressbook.exe
 ## Notes
 - Contact data is stored in database.csv
