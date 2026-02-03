@@ -1,24 +1,53 @@
 # Address Book Application (C)
 
----
-
 ## Overview
-A console-based Address Book application written in C that allows users to store and manage contact information with persistent storage using a CSV file.
+This is a simple Address Book program written in C. It is used to store contact details such as name, phone number, and email. The user can add, search, edit, delete, and view contacts using a menu. All contact information is saved in a CSV file so the data remains available even after the program is closed.
 
----
 
 ## Features
 - Add new contacts
-- Search contacts by name, phone number, or email
-- Edit existing contact details
-- Delete contacts
-- View all saved contacts
-- Uses a CSV file (`database.csv`) for permanent storage
-
----
+- Search contacts by name, phone, or email
+- Edit existing contacts
+- Delete existing contacts
+- View all contacts
+- Sample database (`database.csv`) with 7 sample contacts provided
 
 ## How to Run
 
-### Clone the repository
-```bash
+### Clone the Repository
+hwshwj
+### Compile the Program
+gcc src/*.c -I include -o addressbook
+./addressbook
+### Run the Program
+# On Linux/Mac
+./addressbook
+
+# On Windows (Command Prompt or PowerShell)
+addressbook.exe
+### Notes
+- Contact data is stored in database.csv
+- The file is automatically updated when contacts are added, edited, or deleted
+- You may manually edit database.csv to add sample contacts
+- Ensure database.csv is present in the same directory as the executable
+  
+ ## Screenshots
+### Add Contact
+
+### Edit Contact
+
+### Search Contact
+
+### List Contacts
+
+### Delete Contact
+
+
+
+
+
+
+
+
+
 
