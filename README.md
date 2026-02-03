@@ -64,7 +64,9 @@ addressbook.exe
 
 ### To Exit
 <img width="1336" height="239" alt="image" src="https://github.com/user-attachments/assets/85d42fd2-0591-4c0c-a359-5d162b20530d" />
+
 ## Project Structure
+
 ├── addressbook.c 
 ├── addressbook.h 
 ├── main.c 
