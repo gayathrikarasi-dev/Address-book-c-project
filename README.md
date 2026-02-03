@@ -3,7 +3,7 @@
 ## Overview
 This is a simple Address Book program written in C. It is used to store contact details such as name, phone number, and email. The user can add, search, edit, delete, and view contacts using a menu. All contact information is saved in a CSV file so the data remains available even after the program is closed.
 
-k
+
 ## Features
 - Add new contacts
 - Search contacts by name, phone, or email
@@ -16,6 +16,20 @@ k
 1. Clone the Repository:
    
 git clone https://github.com/gayathrikarasi-dev/Address-book-c-project.git
+## Dependencies
+- GCC or any C compiler
+
+## Steps to Run the Program
+
+### 1. Compile the Program
+```bash
+gcc src/*.c -I include -o addressbook 
+
+
+
+
+
+
 ## Dependencies
 - GCC or any standard C compiler
 2. Compile the Program:
