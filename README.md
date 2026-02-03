@@ -68,12 +68,12 @@ addressbook.exe
 ## Project Structure
 
 250046H_Addressbook/
-├── addressbook.c # Implementation of the address book functions
-├── addressbook.h # Header file for function declarations and structures
-├── main.c # Main program to interact with the user
-├── database.csv # File to store contact data
-├── .gitignore # Ignored compiled files
-└── README.md # Project documentation
+├── addressbook.c 
+├── addressbook.h 
+├── main.c 
+├── database.csv 
+├── .gitignore 
+└── README.md 
 
 
 
