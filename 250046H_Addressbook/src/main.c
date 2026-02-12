@@ -1,13 +1,13 @@
-/*Name : K.Gayathri
-  Date :  06-jan-2026
-  Description: Address Book */
 #include "addressbook.h"
+
 int main() 
 {
     int choice;
+
     struct AddressBook addressBook;
 	pull_file_data(&addressBook,"database.csv");
     addressBook.ir_size = 0;
+
     do 
     {
 	printf("\nAddress Book Menu:\n");
@@ -22,31 +22,29 @@ int main()
 	scanf("%d", &choice);
 
 	switch (choice) 
-	{
+	{            //based on choice calling the function
 	    case 1:
-		add_contact(&addressBook); // Add contact
+		add_contact(&addressBook);
 		break;
 	    case 2:
-		search_contact(&addressBook);  // Search contact
+		search_contact(&addressBook);
 		break;
 	    case 3:
-		edit_contact(&addressBook);    // Edit contact
-
+		edit_contact(&addressBook);
 		break;
 	    case 4:
-		delete_contact(&addressBook); // Delete contact
+		delete_contact(&addressBook);
 		break;
 	    case 5:
-		list_contacts(&addressBook); // List all contacts
+		list_contacts(&addressBook);
 		break;
 	    case 6:
-		printf("Saving and Exiting...\n");  // Save data to file
-		push_data_to_file(&addressBook, "database.csv");
+		printf("Saving and Exiting...\n");
+		push_data_tofile(&addressBook,"database.csv");  //sending data to file from structure
 		break;
 	    default:
 		printf("Invalid choice. Please try again.\n");
 	}
     } while (choice != 6);
-
-    return 0;
+    
 }
