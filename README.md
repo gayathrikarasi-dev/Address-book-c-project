@@ -43,6 +43,30 @@ addressbook.exe
 - You may manually edit database.csv to add sample contacts
 - Ensure database.csv is present in the same directory as the executable
 
+<<<<<<< HEAD
+=======
+  
+## Screenshots
+
+
+### Add Contact
+<img width="1322" height="324" alt="image" src="https://github.com/user-attachments/assets/5edbfe7d-2e0b-4dc1-af96-f4969f7b46e7" />
+
+### Edit Contact
+<img width="1321" height="706" alt="image" src="https://github.com/user-attachments/assets/f253855b-2979-4a60-9904-269fe4e5a5bc" />
+
+### Search Contact
+<img width="1280" height="347" alt="image" src="https://github.com/user-attachments/assets/0532eeb0-0cbb-4502-8d62-949d107a3466" />
+
+### List Contacts
+<img width="1359" height="282" alt="image" src="https://github.com/user-attachments/assets/518b7838-38d5-4264-917d-0cdc4cbda704" />
+
+### Delete Contact
+<img width="1332" height="451" alt="image" src="https://github.com/user-attachments/assets/c7905826-7e90-4628-a40d-fd1a247c5c8d" />
+
+### To Exit
+<img width="1336" height="239" alt="image" src="https://github.com/user-attachments/assets/85d42fd2-0591-4c0c-a359-5d162b20530d" />
+>>>>>>> 45117e453b96d98c65cad2c364201c1f9c35683a
 
 ## Project Structure
 
@@ -55,3 +79,16 @@ addressbook.exe
 └── README.md 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 45117e453b96d98c65cad2c364201c1f9c35683a
